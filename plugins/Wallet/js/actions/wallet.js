@@ -194,3 +194,17 @@ export const setAuxSeeds = (seeds) => ({
 	type: constants.SET_AUX_SEEDS,
 	seeds,
 })
+export const saveAddress = (address) => ({
+	type: constants.SAVE_ADDRESS,
+	address,
+})
+export const setReceiveAddresses = (addresses) => ({
+	type: constants.SET_RECEIVE_ADDRESSES,
+	addresses,
+})
+export const setAddressDescription = (description) => ({
+	type: constants.SET_ADDRESS_DESCRIPTION,
+	description,
+})
+
+
